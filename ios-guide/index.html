@@ -16,6 +16,7 @@
 <meta property="og:url" content="https://thespikemodapk.site/ios-guide/">
 <meta property="og:image" content="https://thespikemodapk.site/logo.webp">
 <meta property="og:site_name" content="SpikeModAPK">
+<meta property="article:modified_time" content="2026-05-23T00:00:00+00:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The Spike MOD APK iOS – iPhone & iPad Free Download 2026">
 <meta name="twitter:description" content="Install The Spike MOD APK on iOS without jailbreak. Unlimited money, all characters unlocked, zero ads.">
@@ -31,7 +32,6 @@
   ]
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,13 +40,12 @@
   "description": "Complete guide to download and install The Spike MOD APK on iOS devices — no jailbreak needed. Unlimited money, all characters unlocked.",
   "image": "https://thespikemodapk.site/logo.webp",
   "datePublished": "2026-02-01",
-  "dateModified": "2026-05-18",
+  "dateModified": "2026-05-23",
   "author": {"@type":"Organization","name":"SpikeModAPK","url":"https://thespikemodapk.site"},
   "publisher": {"@type":"Organization","name":"SpikeModAPK","url":"https://thespikemodapk.site"},
   "mainEntityOfPage": {"@type":"WebPage","@id":"https://thespikemodapk.site/ios-guide/"}
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -64,7 +63,6 @@
   ]
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,7 +84,10 @@
 :root{--gold:#f5a623;--blue:#1e90ff;--bg:#0a0a0f;--bg2:#13131a;--text:#ffffff;--text-muted:#9090a8;--card-border:rgba(245,166,35,0.15);--green:#00d084;--red:#ff4757;}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
-body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.7;}
+
+/* FIX 1: Emoji font added to body + font-size increased from default to 16px */
+body{font-family:'DM Sans','Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.7;font-size:16px;}
+
 .orb{position:fixed;border-radius:50%;filter:blur(90px);opacity:0.06;pointer-events:none;z-index:0;animation:floatOrb 10s ease-in-out infinite;}
 .orb1{width:400px;height:400px;background:var(--blue);top:-100px;right:-100px;}
 .orb2{width:350px;height:350px;background:var(--gold);bottom:10%;left:-80px;animation-delay:-5s;}
@@ -104,48 +105,59 @@ nav a:hover,nav a.active{color:var(--gold);}
 .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;}
 .hamburger span{width:24px;height:2px;background:var(--text);border-radius:2px;}
 .breadcrumb{padding:88px 2rem 0;position:relative;z-index:1;}
-.breadcrumb-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;gap:0.5rem;font-size:0.8rem;color:var(--text-muted);}
+
+/* FIX 2: max-width increased from 900px to 1100px for proper full-width display */
+.breadcrumb-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;color:var(--text-muted);}
 .breadcrumb-inner a{color:var(--text-muted);text-decoration:none;transition:color 0.2s;}
 .breadcrumb-inner a:hover{color:var(--gold);}
 .breadcrumb-inner span{color:var(--gold);}
-.article-wrap{max-width:900px;margin:0 auto;padding:2rem 2rem 4rem;}
+
+/* FIX 2 continued: article-wrap max-width 900px → 1100px */
+.article-wrap{max-width:1100px;margin:0 auto;padding:2rem 2rem 4rem;}
+
 .article-header{padding:2.5rem 0 2rem;border-bottom:1px solid var(--card-border);margin-bottom:2.5rem;}
-.article-tag{display:inline-block;background:rgba(30,144,255,0.1);color:var(--blue);font-size:0.72rem;font-weight:700;padding:0.25rem 0.85rem;border-radius:50px;font-family:'Orbitron',sans-serif;letter-spacing:0.06em;margin-bottom:1rem;}
-.article-title{font-family:'Rajdhani',sans-serif;font-size:clamp(1.9rem,4vw,3rem);font-weight:700;line-height:1.15;margin-bottom:1rem;}
+.article-tag{display:inline-block;background:rgba(30,144,255,0.1);color:var(--blue);font-size:0.78rem;font-weight:700;padding:0.25rem 0.85rem;border-radius:50px;font-family:'Orbitron',sans-serif;letter-spacing:0.06em;margin-bottom:1rem;}
+.article-title{font-family:'Rajdhani',sans-serif;font-size:clamp(2rem,4vw,3rem);font-weight:700;line-height:1.15;margin-bottom:1rem;}
 .article-title span{color:var(--blue);}
-.article-meta{display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;font-size:0.8rem;color:var(--text-muted);}
+.article-meta{display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;font-size:0.88rem;color:var(--text-muted);}
 .toc{background:var(--bg2);border:1px solid var(--card-border);border-radius:14px;padding:1.5rem;margin-bottom:2.5rem;}
-.toc h3{font-family:'Rajdhani',sans-serif;font-size:1.05rem;font-weight:700;color:var(--gold);margin-bottom:1rem;}
+.toc h3{font-family:'Rajdhani',sans-serif;font-size:1.1rem;font-weight:700;color:var(--gold);margin-bottom:1rem;}
 .toc ol{padding-left:1.25rem;}
-.toc li{margin-bottom:0.4rem;}
-.toc a{color:var(--text-muted);text-decoration:none;font-size:0.86rem;transition:color 0.2s;}
+.toc li{margin-bottom:0.45rem;}
+.toc a{color:var(--text-muted);text-decoration:none;font-size:0.9rem;transition:color 0.2s;}
 .toc a:hover{color:var(--gold);}
-.article-body h2{font-family:'Rajdhani',sans-serif;font-size:1.75rem;font-weight:700;margin:2.5rem 0 1rem;padding-top:0.5rem;}
+
+/* FIX 3: Article body font sizes increased for readability */
+.article-body h2{font-family:'Rajdhani',sans-serif;font-size:1.85rem;font-weight:700;margin:2.5rem 0 1rem;padding-top:0.5rem;}
 .article-body h2 span{color:var(--blue);}
-.article-body h3{font-family:'Rajdhani',sans-serif;font-size:1.2rem;font-weight:700;margin:1.75rem 0 0.75rem;color:var(--gold);}
-.article-body p{margin-bottom:1.25rem;color:var(--text-muted);font-size:0.95rem;line-height:1.8;}
+.article-body h3{font-family:'Rajdhani',sans-serif;font-size:1.25rem;font-weight:700;margin:1.75rem 0 0.75rem;color:var(--gold);}
+.article-body p{margin-bottom:1.25rem;color:var(--text-muted);font-size:1rem;line-height:1.8;}
 .article-body strong{color:var(--text);}
-.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0;}
-.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0;}
-.feat-card{background:var(--bg2);border:1px solid var(--card-border);border-radius:12px;padding:1.25rem;transition:all 0.3s;}
+
+.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin:1.5rem 0;}
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin:1.5rem 0;}
+.feat-card{background:var(--bg2);border:1px solid var(--card-border);border-radius:12px;padding:1.35rem;transition:all 0.3s;}
 .feat-card:hover{border-color:rgba(30,144,255,0.35);transform:translateY(-3px);}
-.feat-icon{font-size:1.5rem;margin-bottom:0.6rem;}
-.feat-title{font-family:'Rajdhani',sans-serif;font-size:1rem;font-weight:700;margin-bottom:0.35rem;}
-.feat-text{font-size:0.82rem;color:var(--text-muted);line-height:1.55;}
+
+/* FIX 1 continued: emoji font on feat-icon + size increase */
+.feat-icon{font-size:1.75rem;margin-bottom:0.65rem;font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;line-height:1;display:block;}
+.feat-title{font-family:'Rajdhani',sans-serif;font-size:1.05rem;font-weight:700;margin-bottom:0.4rem;}
+.feat-text{font-size:0.92rem;color:var(--text-muted);line-height:1.6;}
+
 .steps-wrap{background:linear-gradient(135deg,rgba(30,144,255,0.07),rgba(245,166,35,0.05));border:1px solid rgba(30,144,255,0.2);border-radius:16px;padding:2rem;margin:1.5rem 0;}
-.steps-wrap h3{font-family:'Rajdhani',sans-serif;font-size:1.15rem;font-weight:700;color:var(--blue);margin-bottom:1.5rem;}
+.steps-wrap h3{font-family:'Rajdhani',sans-serif;font-size:1.2rem;font-weight:700;color:var(--blue);margin-bottom:1.5rem;}
 .steps-list{list-style:none;}
-.steps-list li{display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.1rem;}
-.step-num{min-width:32px;height:32px;background:linear-gradient(135deg,var(--blue),#00d4ff);color:#000;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:0.82rem;font-family:'Rajdhani',sans-serif;flex-shrink:0;}
-.step-content strong{display:block;font-size:0.92rem;margin-bottom:0.2rem;}
-.step-content span{font-size:0.82rem;color:var(--text-muted);line-height:1.5;}
+.steps-list li{display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.15rem;}
+.step-num{min-width:32px;height:32px;background:linear-gradient(135deg,var(--blue),#00d4ff);color:#000;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:0.85rem;font-family:'Rajdhani',sans-serif;flex-shrink:0;}
+.step-content strong{display:block;font-size:0.98rem;margin-bottom:0.25rem;}
+.step-content span{font-size:0.9rem;color:var(--text-muted);line-height:1.6;}
 .compat-box{background:var(--bg2);border:1px solid rgba(0,208,132,0.2);border-radius:14px;padding:1.5rem;margin:1.5rem 0;}
-.compat-box h4{font-family:'Rajdhani',sans-serif;font-size:1.05rem;font-weight:700;color:var(--green);margin-bottom:1rem;}
+.compat-box h4{font-family:'Rajdhani',sans-serif;font-size:1.1rem;font-weight:700;color:var(--green);margin-bottom:1rem;}
 .compat-list{list-style:none;}
-.compat-list li{display:flex;gap:0.5rem;font-size:0.88rem;margin-bottom:0.6rem;color:var(--text-muted);}
+.compat-list li{display:flex;gap:0.5rem;font-size:0.95rem;margin-bottom:0.65rem;color:var(--text-muted);line-height:1.6;}
 .highlight-box{background:linear-gradient(135deg,rgba(30,144,255,0.08),rgba(245,166,35,0.05));border:1px solid rgba(30,144,255,0.25);border-radius:14px;padding:1.5rem;margin:1.5rem 0;}
-.highlight-box h4{font-family:'Rajdhani',sans-serif;font-size:1.05rem;font-weight:700;color:var(--blue);margin-bottom:1rem;}
-.highlight-box p{color:var(--text-muted);font-size:0.9rem;line-height:1.9;}
+.highlight-box h4{font-family:'Rajdhani',sans-serif;font-size:1.1rem;font-weight:700;color:var(--blue);margin-bottom:1rem;}
+.highlight-box p{color:var(--text-muted);font-size:0.95rem;line-height:2;}
 .pc-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1.5rem 0;}
 .pros-box,.cons-box{border-radius:14px;padding:1.5rem;}
 .pros-box{background:rgba(0,208,132,0.05);border:1px solid rgba(0,208,132,0.2);}
@@ -153,32 +165,34 @@ nav a:hover,nav a.active{color:var(--gold);}
 .pros-box h4{color:var(--green);font-family:'Rajdhani',sans-serif;font-size:1.1rem;font-weight:700;margin-bottom:1rem;}
 .cons-box h4{color:var(--red);font-family:'Rajdhani',sans-serif;font-size:1.1rem;font-weight:700;margin-bottom:1rem;}
 .pc-list{list-style:none;}
-.pc-list li{font-size:0.85rem;margin-bottom:0.6rem;display:flex;gap:0.5rem;line-height:1.5;}
+.pc-list li{font-size:0.92rem;margin-bottom:0.65rem;display:flex;gap:0.5rem;line-height:1.55;}
 .faq-list{margin:1.5rem 0;}
 .faq-item{background:var(--bg2);border:1px solid var(--card-border);border-radius:12px;margin-bottom:0.85rem;overflow:hidden;}
 .faq-item.open{border-color:rgba(30,144,255,0.35);}
-.faq-question{width:100%;background:none;border:none;color:var(--text);padding:1.1rem 1.4rem;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-family:'Rajdhani',sans-serif;font-size:1rem;font-weight:600;gap:1rem;}
+.faq-question{width:100%;background:none;border:none;color:var(--text);padding:1.15rem 1.4rem;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-family:'Rajdhani',sans-serif;font-size:1.05rem;font-weight:600;gap:1rem;}
 .faq-question:hover{color:var(--blue);}
 .faq-icon{min-width:20px;height:20px;border-radius:50%;background:rgba(30,144,255,0.1);border:1px solid rgba(30,144,255,0.3);display:flex;align-items:center;justify-content:center;font-size:0.85rem;color:var(--blue);transition:transform 0.3s;}
 .faq-item.open .faq-icon{transform:rotate(45deg);}
 .faq-answer{max-height:0;overflow:hidden;transition:max-height 0.4s ease;}
-.faq-answer-inner{padding:0 1.4rem 1.1rem;color:var(--text-muted);font-size:0.88rem;line-height:1.7;}
+.faq-answer-inner{padding:0 1.4rem 1.15rem;color:var(--text-muted);font-size:0.95rem;line-height:1.75;}
 .eeat-bar{background:var(--bg2);border-top:1px solid var(--card-border);border-bottom:1px solid var(--card-border);padding:1.25rem 2rem;margin:2rem 0;}
-.eeat-inner{max-width:900px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;}
+
+/* FIX 2 continued: eeat-inner max-width match */
+.eeat-inner{max-width:1100px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;}
 .eeat-item{display:flex;align-items:center;gap:0.5rem;font-size:0.9rem;color:var(--text-muted);}
 .cta-box{background:linear-gradient(135deg,rgba(30,144,255,0.1),rgba(245,166,35,0.08));border:1px solid rgba(30,144,255,0.25);border-radius:18px;padding:2.5rem 2rem;text-align:center;margin:3rem 0 0;}
 .cta-box h2{font-family:'Rajdhani',sans-serif;font-size:1.9rem;font-weight:700;margin-bottom:0.6rem;}
-.cta-box p{color:var(--text-muted);margin-bottom:1.5rem;font-size:0.92rem;}
+.cta-box p{color:var(--text-muted);margin-bottom:1.5rem;font-size:0.95rem;}
 .cta-btns{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;}
-.btn-primary{display:inline-flex;align-items:center;gap:0.5rem;background:linear-gradient(135deg,var(--gold),#ff6b35);color:#000;padding:0.8rem 1.6rem;border-radius:10px;font-weight:700;font-size:0.92rem;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 20px rgba(245,166,35,0.3);}
+.btn-primary{display:inline-flex;align-items:center;gap:0.5rem;background:linear-gradient(135deg,var(--gold),#ff6b35);color:#000;padding:0.85rem 1.75rem;border-radius:10px;font-weight:700;font-size:1rem;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 20px rgba(245,166,35,0.3);}
 .btn-primary:hover{transform:translateY(-2px);}
-.btn-secondary{display:inline-flex;align-items:center;gap:0.5rem;background:transparent;color:var(--blue);padding:0.8rem 1.6rem;border-radius:10px;font-weight:600;font-size:0.92rem;text-decoration:none;border:2px solid var(--blue);transition:all 0.2s;}
+.btn-secondary{display:inline-flex;align-items:center;gap:0.5rem;background:transparent;color:var(--blue);padding:0.85rem 1.75rem;border-radius:10px;font-weight:600;font-size:1rem;text-decoration:none;border:2px solid var(--blue);transition:all 0.2s;}
 .btn-secondary:hover{background:rgba(30,144,255,0.1);}
 footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:2rem;text-align:center;position:relative;z-index:1;}
 .footer-links{display:flex;justify-content:center;flex-wrap:wrap;gap:1.5rem;margin-bottom:1rem;}
-.footer-links a{color:var(--text-muted);text-decoration:none;font-size:0.82rem;transition:color 0.2s;}
+.footer-links a{color:var(--text-muted);text-decoration:none;font-size:0.88rem;transition:color 0.2s;}
 .footer-links a:hover{color:var(--gold);}
-.footer-copy{font-size:0.75rem;color:var(--text-muted);line-height:1.7;}
+.footer-copy{font-size:0.82rem;color:var(--text-muted);line-height:1.7;}
 .divider{height:1px;background:linear-gradient(90deg,transparent,var(--card-border),transparent);margin:2rem 0;}
 @media(max-width:768px){nav{display:none;position:fixed;top:70px;left:0;right:0;background:var(--bg2);flex-direction:column;padding:1.5rem;gap:1rem;border-bottom:1px solid var(--card-border);}nav.open{display:flex;}.hamburger{display:flex;}.feature-grid,.feat-grid,.pc-grid{grid-template-columns:1fr;}.article-wrap{padding:1.5rem 1.25rem 3rem;}}
 .social-icons{display:flex;justify-content:center;gap:1rem;margin:1.25rem 0 0.5rem;}
@@ -201,6 +215,7 @@ footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:2re
     <a href="/#download">Download</a>
     <a href="/coupon-codes/">Coupon Codes</a>
     <a href="/ios-guide/" class="active">iOS Guide</a>
+    <a href="/pc-guide/">PC Guide</a>
     <a href="/#download" class="btn-nav">⬇ Download Now</a>
   </nav>
   <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
@@ -217,17 +232,16 @@ footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:2re
     <span class="article-tag">iOS Guide</span>
     <h1 class="article-title">The Spike MOD APK <span>iOS</span> – Download for iPhone & iPad Free 2026</h1>
     <div class="article-meta">
-      <span>📅 Updated: May 18, 2026</span>
+      <span>📅 Updated: May 23, 2026</span>
       <span>✍️ By SpikeModAPK Team</span>
       <span>⏱️ 5 min read</span>
       <span>🍎 iPhone & iPad</span>
     </div>
   </div>
 
-  <!-- EEAT BAR -->
   <div class="eeat-bar reveal">
     <div class="eeat-inner">
-      <div class="eeat-item"><span style="color:var(--gold)">📅</span><strong style="color:var(--text)">Updated:</strong>&nbsp;May 18, 2026</div>
+      <div class="eeat-item"><span style="color:var(--gold)">📅</span><strong style="color:var(--text)">Updated:</strong>&nbsp;May 23, 2026</div>
       <div class="eeat-item"><span style="color:var(--gold)">✍️</span><strong style="color:var(--text)">By:</strong>&nbsp;SpikeModAPK Team</div>
       <div class="eeat-item"><span style="color:var(--gold)">🛡️</span><strong style="color:var(--text)">Verified:</strong>&nbsp;No Jailbreak Required</div>
       <div class="eeat-item"><span style="color:var(--gold)">📱</span><strong style="color:var(--text)">Works on:</strong>&nbsp;iOS 12+ All Devices</div>
@@ -274,7 +288,6 @@ footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:2re
           <li><span>⚙️</span> Lightweight — no battery drain or slowdowns</li>
         </ul>
       </div>
-
       <div class="feature-grid">
         <div class="feat-card">
           <div class="feat-icon">🎮</div>
@@ -304,7 +317,6 @@ footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:2re
     <section id="how-to-download" class="reveal">
       <h2>How to Install <span>The Spike MOD APK on iOS</span></h2>
       <p>Installing The Spike MOD APK on your iPhone or iPad takes less than 5 minutes. Two methods available — AltStore (recommended) or Scarlet.</p>
-
       <div class="steps-wrap">
         <h3>🍎 Method 1 — Using AltStore (Recommended)</h3>
         <ol class="steps-list">
@@ -316,7 +328,6 @@ footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:2re
           <li><div class="step-num">6</div><div class="step-content"><strong>Launch The Spike!</strong><span>Open the game from your home screen — unlimited money, all characters unlocked and zero ads from the very first launch!</span></div></li>
         </ol>
       </div>
-
       <div class="steps-wrap" style="border-color:rgba(245,166,35,0.2);background:linear-gradient(135deg,rgba(245,166,35,0.07),rgba(30,144,255,0.04))">
         <h3 style="color:var(--gold)">📲 Method 2 — Using Scarlet</h3>
         <ol class="steps-list">
@@ -383,48 +394,27 @@ footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:2re
     <section id="faq" class="reveal">
       <h2>FAQs – <span>The Spike MOD APK iOS</span></h2>
       <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-question">Can I install The Spike MOD APK on iOS without jailbreak? <span class="faq-icon">+</span></button>
-          <div class="faq-answer"><div class="faq-answer-inner">Yes! No jailbreak needed. Use AltStore or Scarlet to sideload the IPA file safely on any iPhone or iPad running iOS 12 and above. Both tools are free and safe to use.</div></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">What iOS devices are compatible? <span class="faq-icon">+</span></button>
-          <div class="faq-answer"><div class="faq-answer-inner">The Spike MOD APK works on iPhone 8 through iPhone 15 Pro Max and all iPad models running iOS 12 and above. It runs smoothly without lag or battery drain on all supported devices.</div></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">Is The Spike MOD APK for iOS free? <span class="faq-icon">+</span></button>
-          <div class="faq-answer"><div class="faq-answer-inner">Yes, completely free. The MOD version gives unlimited money and all characters unlocked at no cost — no in-app purchases, no subscription, no payment of any kind.</div></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">Can I play The Spike offline on iPhone? <span class="faq-icon">+</span></button>
-          <div class="faq-answer"><div class="faq-answer-inner">Absolutely. Full offline support — Story Mode, tournaments and practice matches all work perfectly without any internet connection on iPhone and iPad.</div></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">What is AltStore and is it safe? <span class="faq-icon">+</span></button>
-          <div class="faq-answer"><div class="faq-answer-inner">AltStore is a trusted free app that lets you install IPA files on iPhone without jailbreaking. It was created by Riley Testut and has been widely used by millions safely. Download only from altstore.io.</div></div>
-        </div>
+        <div class="faq-item"><button class="faq-question">Can I install The Spike MOD APK on iOS without jailbreak? <span class="faq-icon">+</span></button><div class="faq-answer"><div class="faq-answer-inner">Yes! No jailbreak needed. Use AltStore or Scarlet to sideload the IPA file safely on any iPhone or iPad running iOS 12 and above. Both tools are free and safe to use.</div></div></div>
+        <div class="faq-item"><button class="faq-question">What iOS devices are compatible? <span class="faq-icon">+</span></button><div class="faq-answer"><div class="faq-answer-inner">The Spike MOD APK works on iPhone 8 through iPhone 15 Pro Max and all iPad models running iOS 12 and above. It runs smoothly without lag or battery drain on all supported devices.</div></div></div>
+        <div class="faq-item"><button class="faq-question">Is The Spike MOD APK for iOS free? <span class="faq-icon">+</span></button><div class="faq-answer"><div class="faq-answer-inner">Yes, completely free. The MOD version gives unlimited money and all characters unlocked at no cost — no in-app purchases, no subscription, no payment of any kind.</div></div></div>
+        <div class="faq-item"><button class="faq-question">Can I play The Spike offline on iPhone? <span class="faq-icon">+</span></button><div class="faq-answer"><div class="faq-answer-inner">Absolutely. Full offline support — Story Mode, tournaments and practice matches all work perfectly without any internet connection on iPhone and iPad.</div></div></div>
+        <div class="faq-item"><button class="faq-question">What is AltStore and is it safe? <span class="faq-icon">+</span></button><div class="faq-answer"><div class="faq-answer-inner">AltStore is a trusted free app that lets you install IPA files on iPhone without jailbreaking. It was created by Riley Testut and has been widely used by millions safely. Download only from altstore.io.</div></div></div>
       </div>
     </section>
-
 
     <div class="divider"></div>
 
     <section id="gameplay" class="reveal">
       <h2>The Spike Volleyball Story <span>Gameplay on iOS</span> — What to Expect</h2>
       <p><strong>The Spike Volleyball Story APK for iOS</strong> is more than just a sports game — it is a complete volleyball experience with anime-style storytelling, realistic physics, and competitive depth. Here is everything you get when you download it on your iPhone or iPad.</p>
-      
       <h3>🏐 Story Mode</h3>
       <p>Follow your character from a rookie to a volleyball champion across multiple seasons. Each match in Story Mode feels meaningful — you meet teammates with unique personalities, face rival teams, and make decisions that shape your team's journey. With the MOD APK all story chapters are fully unlocked from the start on iOS.</p>
-      
       <h3>🏆 Tournament Mode</h3>
       <p>Compete in local high school tournaments all the way up to national championships. Every tournament has increasing difficulty and unique opponent teams. The MOD APK gives you unlimited money so you can fully upgrade your team before entering any tournament — making every match winnable from day one.</p>
-      
       <h3>⚡ Boom Jump — The Most Powerful Move</h3>
       <p>Boom Jump is the signature mechanic of The Spike Volleyball Story. It lets your player execute a supercharged explosive spike that is nearly impossible for opponents to defend. To execute a Boom Jump on iOS — enable the Run-Up option in game settings, press and hold the jump button at the right moment, then release for maximum power. The MOD APK has Boom Jump enabled by default for all characters.</p>
-      
       <h3>🎮 Controls on iPhone</h3>
       <p>The touch controls on iOS are perfectly optimized — one-tap for basic spikes and serves, while advanced players use the four-directional button layout for strategic plays. The game responds in milliseconds on iPhone thanks to Apple's hardware optimization, making it one of the smoothest volleyball games available on mobile.</p>
-      
       <h3>👥 Multiplayer on iOS</h3>
       <p>Challenge friends in multiplayer mode directly from your iPhone. The game supports both WiFi and mobile data connections for online play. Story Mode and practice matches work completely offline — no internet needed.</p>
     </section>
@@ -435,26 +425,10 @@ footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:2re
       <h2>Best <span>Characters</span> in The Spike MOD APK iOS 2026</h2>
       <p>With The Spike MOD APK all characters are unlocked instantly on iOS — no grinding, no coins needed. Here are the best characters to use in 2026:</p>
       <div class="feat-grid">
-        <div class="feat-card">
-          <div class="feat-icon">⚡</div>
-          <h3 class="feat-title">Nishikawa — Black Thunder</h3>
-          <p class="feat-text">S-Tier spiker with explosive power and the iconic Black Thunder spike sound. The most popular character in the May 2026 update — perfect for aggressive tournament play.</p>
-        </div>
-        <div class="feat-card">
-          <div class="feat-icon">🌟</div>
-          <h3 class="feat-title">Jaehyun</h3>
-          <p class="feat-text">High jump ability, exceptional attack power, and precise spike accuracy. Jaehyun is the ultimate ace spiker for iOS players who prefer an aggressive style.</p>
-        </div>
-        <div class="feat-card">
-          <div class="feat-icon">🎯</div>
-          <h3 class="feat-title">Kang</h3>
-          <p class="feat-text">Balanced stats across attack, defense, and speed. Kang is perfect for players who want a reliable all-rounder character on iOS.</p>
-        </div>
-        <div class="feat-card">
-          <div class="feat-icon">💨</div>
-          <h3 class="feat-title">Lucas</h3>
-          <p class="feat-text">Lightning-fast court movement and quick reactions. Lucas excels at reaching difficult balls and executing quick counter-attacks during rallies.</p>
-        </div>
+        <div class="feat-card"><div class="feat-icon">⚡</div><h3 class="feat-title">Nishikawa — Black Thunder</h3><p class="feat-text">S-Tier spiker with explosive power and the iconic Black Thunder spike sound. The most popular character in the May 2026 update — perfect for aggressive tournament play.</p></div>
+        <div class="feat-card"><div class="feat-icon">🌟</div><h3 class="feat-title">Jaehyun</h3><p class="feat-text">High jump ability, exceptional attack power, and precise spike accuracy. Jaehyun is the ultimate ace spiker for iOS players who prefer an aggressive style.</p></div>
+        <div class="feat-card"><div class="feat-icon">🎯</div><h3 class="feat-title">Kang</h3><p class="feat-text">Balanced stats across attack, defense, and speed. Kang is perfect for players who want a reliable all-rounder character on iOS.</p></div>
+        <div class="feat-card"><div class="feat-icon">💨</div><h3 class="feat-title">Lucas</h3><p class="feat-text">Lightning-fast court movement and quick reactions. Lucas excels at reaching difficult balls and executing quick counter-attacks during rallies.</p></div>
       </div>
     </section>
 
@@ -502,18 +476,10 @@ footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:2re
     <a href="/privacy-policy/">Privacy Policy</a>
   </div>
   <div class="social-icons">
-    <a href="https://www.tiktok.com/@spkiemodapk" target="_blank" rel="noopener" title="TikTok">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.75a8.18 8.18 0 004.78 1.52V6.82a4.85 4.85 0 01-1.01-.13z"/></svg>
-    </a>
-    <a href="https://www.facebook.com/profile.php?id=61582195083103" target="_blank" rel="noopener" title="Facebook">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-    </a>
-    <a href="https://x.com/SpikeModAPK" target="_blank" rel="noopener" title="Twitter/X">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-    </a>
-    <a href="https://www.instagram.com/spikemodapk01/" target="_blank" rel="noopener" title="Instagram">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-    </a>
+    <a href="https://www.tiktok.com/@spkiemodapk" target="_blank" rel="noopener" title="TikTok"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.75a8.18 8.18 0 004.78 1.52V6.82a4.85 4.85 0 01-1.01-.13z"/></svg></a>
+    <a href="https://www.facebook.com/profile.php?id=61582195083103" target="_blank" rel="noopener" title="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+    <a href="https://x.com/SpikeModAPK" target="_blank" rel="noopener" title="Twitter/X"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+    <a href="https://www.instagram.com/spikemodapk01/" target="_blank" rel="noopener" title="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
   </div>
   <p class="footer-copy">© 2026 SpikeModAPK — Fan Site. Not affiliated with official developers.</p>
 </footer>
@@ -521,7 +487,7 @@ footer{background:var(--bg2);border-top:1px solid var(--card-border);padding:2re
 <script>
 const observer=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:0.08});
 document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-window.addEventListener('scroll',()=>{document.getElementById('header').style.boxShadow=window.scrollY>20?'0 4px 30px rgba(0,0,0,0.5)':' none';});
+window.addEventListener('scroll',()=>{document.getElementById('header').style.boxShadow=window.scrollY>20?'0 4px 30px rgba(0,0,0,0.5)':'none';});
 document.getElementById('hamburger').addEventListener('click',()=>{document.getElementById('nav').classList.toggle('open');});
 document.querySelectorAll('#nav a').forEach(a=>a.addEventListener('click',()=>document.getElementById('nav').classList.remove('open')));
 document.querySelectorAll('.faq-question').forEach(btn=>{
