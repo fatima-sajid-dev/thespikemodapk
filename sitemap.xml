@@ -35,6 +35,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Indonesian Guide -->
+  <url>
+    <loc>https://thespikemodapk.site/indonesian-guide/</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Privacy Policy -->
   <url>
     <loc>https://thespikemodapk.site/privacy-policy/</loc>
