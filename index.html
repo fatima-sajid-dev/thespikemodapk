@@ -641,6 +641,13 @@ td,th{overflow-wrap:anywhere;}
   nav.open{display:flex;}
   .hamburger{display:flex !important;}
 }
+
+/* === visible table separators (Oct 2026) === */
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem 0;}
+.table-wrap table{border-collapse:collapse;border:1px solid rgba(255,255,255,0.18);margin:0;}
+.table-wrap th,.table-wrap td{border-bottom:1px solid rgba(255,255,255,0.18);border-right:1px solid rgba(255,255,255,0.10);}
+.table-wrap th:last-child,.table-wrap td:last-child{border-right:none;}
+.table-wrap th{white-space:nowrap;border-bottom:2px solid rgba(245,166,35,0.5);}
 </style>
 <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 </head>
@@ -783,7 +790,7 @@ td,th{overflow-wrap:anywhere;}
       <h3 class="section-title" style="font-size:1.5rem; margin-bottom:1.25rem;">What's New in <span>v8.0.106</span> — Latest Update October 2026</h3>
       <p style="text-align:center; margin-top:0.75rem;"><a href="/the-spike-v8-update/" style="color:var(--gold); font-weight:600;"> Read the full v8.0.106 update breakdown →</a></p>
       <p style="text-align:center; margin-top:0.5rem;"><a href="/the-spike-characters-list/" style="color:var(--gold); font-weight:600;"> All Characters List</a> &nbsp;·&nbsp; <a href="/the-spike-unlimited-money-guide/" style="color:var(--gold); font-weight:600;"> Unlimited Money Guide</a> &nbsp;·&nbsp; <a href="/the-spike-mod-apk-mediafire-link/" style="color:var(--gold); font-weight:600;"> Mediafire Download Guide</a></p>
-      <div style="overflow-x:auto;">
+      <div class="table-wrap">
         <table class="req-table" style="max-width:700px; margin:0 auto;">
           <tr><td> Boom Jump Refined</td><td>Smoother jump timing and better responsiveness for the Boom Jump mechanic</td></tr>
           <tr><td> Crash &amp; Spike Fixes</td><td>Fixed Lucas spike issues, mailbox crashes and serve-related bugs</td></tr>

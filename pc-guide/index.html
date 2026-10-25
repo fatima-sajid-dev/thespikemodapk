@@ -230,6 +230,13 @@ td,th{overflow-wrap:anywhere;}
   nav.open{display:flex;}
   .hamburger{display:flex !important;}
 }
+
+/* === visible table separators (Oct 2026) === */
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem 0;}
+.table-wrap table{border-collapse:collapse;border:1px solid rgba(255,255,255,0.18);margin:0;}
+.table-wrap th,.table-wrap td{border-bottom:1px solid rgba(255,255,255,0.18);border-right:1px solid rgba(255,255,255,0.10);}
+.table-wrap th:last-child,.table-wrap td:last-child{border-right:none;}
+.table-wrap th{white-space:nowrap;border-bottom:2px solid rgba(245,166,35,0.5);}
 </style>
 <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 </head>
