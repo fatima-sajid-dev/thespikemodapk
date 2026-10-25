@@ -198,6 +198,16 @@ footer { background: var(--bg2); border-top: 1px solid var(--card-border); paddi
 .footer-col a:hover { color: var(--gold); }
 .footer-bottom { text-align: center; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.06); font-size: 0.82rem; color: var(--text-muted); }
 @media (max-width: 768px) { .footer-top { grid-template-columns: 1fr; } .article-hero { padding: 2rem 1rem 1.5rem; } .code-card { flex-direction: column; align-items: flex-start; } nav { display: none; } .author-bio { flex-direction: column; text-align: center; } }
+
+/* === display fixes (Oct 2026) === */
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem 0;}
+.table-wrap table{margin:0;}
+td,th{overflow-wrap:anywhere;}
+
+@media(max-width:1080px){
+  nav{gap:1rem;}
+  nav a{font-size:0.9rem;}
+}
 </style>
 <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 </head>
@@ -331,7 +341,7 @@ footer { background: var(--bg2); border-top: 1px solid var(--card-border); paddi
   <div class="container">
     <h2 class="section-title">What <span>Rewards</span> Can You Get?</h2>
     <p class="section-sub">Here's what The Spike coupon codes typically reward players with when active.</p>
-    <table class="rewards-table">
+    <div class="table-wrap"><table class="rewards-table">
       <thead>
         <tr><th>Reward Type</th><th>What It's Used For</th><th>Rarity</th></tr>
       </thead>
@@ -343,7 +353,7 @@ footer { background: var(--bg2); border-top: 1px solid var(--card-border); paddi
         <tr><td> Seasonal Gear</td><td>Exclusive limited-time cosmetics</td><td style="color:var(--red);">Rare</td></tr>
         <tr><td> Premium Characters</td><td>Powerful special event players</td><td style="color:var(--red);">Very Rare</td></tr>
       </tbody>
-    </table>
+    </table></div>
   </div>
 </section>
 

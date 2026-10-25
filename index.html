@@ -626,6 +626,21 @@ footer {
   color: #000;
   transform: translateY(-3px);
 }
+
+/* === display fixes (Oct 2026) === */
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem 0;}
+.table-wrap table{margin:0;}
+td,th{overflow-wrap:anywhere;}
+
+@media(max-width:1080px){
+  nav{gap:1rem;}
+  nav a{font-size:0.9rem;}
+}
+@media(max-width:920px){
+  nav{display:none;position:fixed;top:70px;left:0;right:0;background:var(--bg2);flex-direction:column;padding:1.5rem;gap:1rem;border-bottom:1px solid var(--card-border);}
+  nav.open{display:flex;}
+  .hamburger{display:flex !important;}
+}
 </style>
 <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 </head>
@@ -932,13 +947,13 @@ footer {
     </div>
     <div class="card reveal" style="max-width:500px;">
       <h3 class="card-title" style="margin-bottom:1rem;"> PC Requirements</h3>
-      <table class="req-table">
+      <div class="table-wrap"><table class="req-table">
         <tr><td>Operating System</td><td>Windows 7 / 8 / 10 / 11 or macOS</td></tr>
         <tr><td>RAM</td><td>2GB minimum (4GB recommended)</td></tr>
         <tr><td>Storage</td><td>500MB free space</td></tr>
         <tr><td>Graphics</td><td>Intel HD or equivalent</td></tr>
         <tr><td>Internet</td><td>Required for initial setup only</td></tr>
-      </table>
+      </table></div>
     </div>
     <div class="reveal" style="margin-top:1.5rem;">
       <a href="/pc-guide/" class="btn-secondary"> Full PC Guide →</a>
